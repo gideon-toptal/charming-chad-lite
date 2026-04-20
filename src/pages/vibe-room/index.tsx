@@ -1,3 +1,5 @@
+import VibeRoomChats from "./chats";
+
 export default function VibeRoom() {
   const username = "vixen";
   return (
@@ -7,6 +9,9 @@ export default function VibeRoom() {
       <p> Live - 23 people</p>
       <p>Locked 🔒</p>
       <button>Unlock with premium</button>
+
+      <div>Pick someone and start a conversation</div>
+      <button>Open vibe room chat</button>
 
       <div>
         <h2>Welcome, {username}</h2>
@@ -20,6 +25,7 @@ export default function VibeRoom() {
       </div>
       {/* Vibe room background */}
       <div></div>
+      <VibeRoomChats />
     </div>
   );
 }
