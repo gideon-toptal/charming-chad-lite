@@ -12,3 +12,8 @@ export const loginLink: Link = {
   value: "/login",
   label: "Login",
 };
+
+export const pricingLink: Link = {
+  value: "/pricing",
+  label: "pricing",
+};

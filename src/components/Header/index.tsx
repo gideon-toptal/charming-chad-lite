@@ -13,12 +13,3 @@ export default function Header(props: HeaderProps) {
     </header>
   );
 }
-
-export function PublicNavActions() {
-  return (
-    <div>
-      <button>Login</button>
-      <button>Sing up</button>
-    </div>
-  );
-}

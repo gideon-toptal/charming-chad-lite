@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
-import Header, { PublicNavActions } from "../components/Header";
+import Header from "../components/Header";
+import PublicNavActions from "../components/Header/PublicNavActions";
 
 export default function Landing() {
   return (
