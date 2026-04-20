@@ -1,3 +1,4 @@
+import Dock from "../dock";
 import "./rating.css";
 interface PickupLine {
   id: number;
@@ -63,6 +64,8 @@ export default function RatePickupLines() {
           </div>
         ))}
       </div>
+
+      <Dock />
     </div>
   );
 }
