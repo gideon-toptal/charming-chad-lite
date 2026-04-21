@@ -8,6 +8,7 @@ import SignUp from "./pages/sign-up";
 import Vixen from "./pages/vixen";
 import RatePickupLines from "./pages/rating";
 import VibeRoom from "./pages/vibe-room";
+import Chad from "./pages/chad";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/vixen" element={<Vixen />} />
       <Route path="/rating" element={<RatePickupLines />} />
       <Route path="/vibe-room" element={<VibeRoom />} />
+      <Route path="/chad" element={<Chad />} />
     </Routes>
   );
 }
